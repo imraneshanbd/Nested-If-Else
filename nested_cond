@@ -1,0 +1,14 @@
+# Nested If/Else
+# Don't Change the code below
+Height = int(input("What is your Height? "))
+# Don't Change the code Above
+
+if Height >= 120:
+    print("Yes! you can ride")
+    age = int(input("How old are you? "))
+    if age < 18:
+        print("Please pay $7")
+    else:
+        print("Please pay $12")
+else:
+    print("Sorry, You can't ride")
